@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Open+Sans");
+
+body {
+	font-family: Open Sans;
+	margin: 20px;
+}
+#letters {
+	font-size: 20px;
+	font-family: Open Sans;
+	border-radius: 5px;
+	height: 40px;
+	width: 200px;
+}
+#goButton {
+	background-color: #00ff00;
+	font-family: Oswald;
+	font-size: 30px;
+	border-radius: 15px;
+	width: 100px;
+}
+#goButton:hover {
+    box-shadow: 3px 6px #999;
+}
+.column {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    width: 120px;
+}
+.lengthHead {
+	vertical-align: top;
+    padding: 5px;
+    width: 120px;
+    color: #4999f4;
+    font-size: 20px;
+    font-family: Oswald;
+}
+a {
+	color: #303030;
+}
+a:hover {
+    color: black;
+    font-weight: bold;
+}
