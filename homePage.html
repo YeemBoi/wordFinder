@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+<title>Word Finder!</title>
+<link rel="icon" href="/facicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/baseStyleSheets.css">
+<script type="text/javascript" src="/uiScript.js"></script>
+</head>
+<body>
+<div>
+Enter a word below to see it's worth in Scrabble points:<br>
+<input placeholder="Word goes here" id="word" type="text" autocomplete="off">
+<div id="checkerResults"></div>
+</div>
+<br>
+<div>
+<strong>New Feature:</strong> You can now enter blanks (_) or hyphens as Scrabble wildcards!
+</div>
+<input placeHolder="Letters go here!" id="letters" autocomplete="off" type="text">
+<br>
+Sort by length:<input type="checkbox" id="lengthSort" checked="true">
+<br>
+<button id="goButton">Go!</button>
+<div id="resultsDiv"></div>
+</body>
+</html>
