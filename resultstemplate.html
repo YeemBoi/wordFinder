@@ -1,1 +1,10 @@
-
+<div>Found {{amountFount}} words from {{s-letters}}!</div>
+{% if swapsArr %}
+No words can be formed by directly swapping {{s-letters}}.
+{% else %}
+{{s-letters}} can be directly swapped to form {{swapsArr}}
+{% endif %}
+<br>
+{% if swapsArr %}
+{% else %}
+{% endif %}
